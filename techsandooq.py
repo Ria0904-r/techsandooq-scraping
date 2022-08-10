@@ -1,6 +1,6 @@
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup #Beautiful Soup is a Python library for pulling data out of HTML and XML files
 import requests
-import pandas as pd
+import pandas as pd #pandas is best for handling data
 import re
 url = "https://techsandooq.com/list-companies-email/"
 html_content = requests.get(url).text
